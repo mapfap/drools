@@ -63,29 +63,51 @@ public class MainUI {
 //		for (String x: request.split(",")) {
 //			r.setFactor(x, "true");
 //		}
-		r.setFactor("ภาคที่ปลูกได้", "อีสาน");
+//		r.setFactor("ภาคที่ปลูกได้", "อีสาน");
+		r.setFactor("ภาคที่ปลูกได้", region(request));
 		return r;
 	}
 
-	public static void region(String s) {
+	public static String region(String s) {
 		char c = s.charAt(0);
 		if(c == '1')
-			System.out.println("ภาคกลาง");	
-		else if(c == '2')
-			System.out.println("ภาคตะวันออก");
-		else if(c == '3')
-			System.out.println("ภาคอีสานตอนล่าง");
-		else if(c == '4')
-			System.out.println("ภาคอีสานตอนบน");
-		else if(c == '5')
-			System.out.println("ภาคเหนือตอนบน");
-		else if(c == '6')
-			System.out.println("ภาคเหนือตอนล่าง");
-		else if(c == '7')
-			System.out.println("ภาคตะวันตก");
-		else if(c == '8')
-			System.out.println("ภาคใต้ตอนบน");
-		else if(c == '9')
-			System.out.println("ภาคใต้ตอนล่าง");
+			return "กลาง";	
+		if(c == '2')
+			return "ตะวันออก";
+		if(c == '3')
+			return "อีสาน";
+		if(c == '4')
+			return "อีสาน";
+		if(c == '5')
+			return "เหนือตอนบน";
+		if(c == '6')
+			return "เหนือตอนล่าง";
+		if(c == '7')
+			return "ตะวันตก";
+		if(c == '8')
+			return "ใต้";
+		if(c == '9')
+			return "ใต้";
+		return "";
+		
+//		if(c == '1')
+//			return "กลาง";	
+//		if(c == '2')
+//			return "ตะวันออก";
+//		if(c == '3')
+//			return "อีสานตอนล่าง";
+//		if(c == '4')
+//			return "อีสานตอนบน";
+//		if(c == '5')
+//			return "เหนือตอนบน";
+//		if(c == '6')
+//			return "เหนือตอนล่าง";
+//		if(c == '7')
+//			return "ตะวันตก";
+//		if(c == '8')
+//			return "ใต้ตอนบน";
+//		if(c == '9')
+//			return "ใต้ตอนล่าง";
+//		return "";		
 	}
 }

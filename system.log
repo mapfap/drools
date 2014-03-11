@@ -2,24 +2,24 @@
 <org.drools.core.audit.event.ObjectLogEvent>
   <type>1</type>
   <factId>1</factId>
-  <objectToString>com.mapfap.Rice@261b2d21</objectToString>
+  <objectToString>com.mapfap.Rice@327c2bd6</objectToString>
 </org.drools.core.audit.event.ObjectLogEvent>
 <org.drools.core.audit.event.ActivationLogEvent>
   <type>4</type>
   <activationId>Rice Tables_12 [1, 1, 1, 1]</activationId>
   <rule>Rice Tables_12</rule>
-  <declarations>rice=com.mapfap.Rice@261b2d21(1)</declarations>
+  <declarations>rice=com.mapfap.Rice@327c2bd6(1)</declarations>
 </org.drools.core.audit.event.ActivationLogEvent>
 <org.drools.core.audit.event.ActivationLogEvent>
   <type>6</type>
   <activationId>Rice Tables_12 [1, 1, 1, 1]</activationId>
   <rule>Rice Tables_12</rule>
-  <declarations>rice=com.mapfap.Rice@261b2d21(1)</declarations>
+  <declarations>rice=com.mapfap.Rice@327c2bd6(1)</declarations>
 </org.drools.core.audit.event.ActivationLogEvent>
 <org.drools.core.audit.event.ActivationLogEvent>
   <type>7</type>
   <activationId>Rice Tables_12 [1, 1, 1, 1]</activationId>
   <rule>Rice Tables_12</rule>
-  <declarations>rice=com.mapfap.Rice@261b2d21(1)</declarations>
+  <declarations>rice=com.mapfap.Rice@327c2bd6(1)</declarations>
 </org.drools.core.audit.event.ActivationLogEvent>
 </object-stream>
